@@ -1,0 +1,25 @@
+/* body {
+  background-color: lightblue;
+}
+p,h2{
+  background-color: aqua;
+}
+div+p{
+    background-color: yellow;
+}
+p:hover{
+    font-size: xx-large;
+} */
+ p::before{
+    background-color:red;
+   content: hi,using content append;
+ }
+ p::after{
+    background-color:blue;
+    content: hi,using content append;
+
+
+ }
+ p::selction{
+    background-color:green;
+ }
